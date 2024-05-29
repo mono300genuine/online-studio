@@ -6,10 +6,10 @@ useHead({
   },
 
   meta: [
-    { name: 'description', as='script', content: 'Podux Podcast landing page website.' },
+    { name: 'description',content: 'Podux Podcast landing page website.' },
   ],
   link: [
-    { rel: 'icon', type: 'image/png', href: '/logo.webp' },
+    { rel: 'icon', as='script', type: 'image/png', href: '/logo.webp' },
     {
       rel: 'preload',
       as: 'script',
