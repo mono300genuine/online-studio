@@ -11,7 +11,7 @@ useHead({
   link: [
     { rel: 'icon', type: 'image/png', href: '/logo.webp' },
     {
-      rel: 'stylesheet',
+      rel: 'preload',
       href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap',
     },
   ],
