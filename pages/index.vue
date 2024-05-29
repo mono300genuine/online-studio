@@ -8,7 +8,7 @@ useHead({
     lang: 'ja' 
   },
   link: [
-    { rel: 'icon', as: 'image', type: 'image/png', href: '/logo.webp' },
+    { rel: 'preload', as: 'script', type: 'image/png', href: '/logo.webp' },
     {
       rel: 'preload',
       as: 'style',
