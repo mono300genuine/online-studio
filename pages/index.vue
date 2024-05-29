@@ -12,6 +12,7 @@ useHead({
     { rel: 'icon', type: 'image/png', href: '/logo.webp' },
     {
       rel: 'preload',
+      as: 'script',
       href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap',
     },
   ],
