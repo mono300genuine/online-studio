@@ -20,7 +20,7 @@ const { img, txt1, txt2, skewtxt1, skewtxt2 } = defineProps<{
     </div>
     <div class="flex items-center justify-center w-[355px] absolute -bottom-[4.5rem] -left-[0.7rem]">
 
-      <div class="relative">
+      <div class="relative font-hiragino">
         <nuxt-img src="/images/components/reason/step2card/bottomtag.webp" loading="lazy" width="355" height="77"
           class="shadow-lg rounded-lg" alt="bottomtag"/>
         <div class="flex items-center justify-center w-full absolute top-4">

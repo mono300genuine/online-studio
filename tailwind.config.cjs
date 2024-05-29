@@ -34,6 +34,8 @@ module.exports = {
       },
       fontFamily: {
         'sans-jp': ['Noto Sans JP', 'sans-serif'],
+        sans: ['Hiragino Sans', 'ヒラギノ角ゴシック', 'Hiragino Kaku Gothic Pro', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'sans-serif'],
+        hiragino: ['Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴシック', 'sans-serif']
       },
       skew: {
         '25': '25deg',

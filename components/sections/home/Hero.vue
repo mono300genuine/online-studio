@@ -48,7 +48,8 @@ const mainherodata = [
 </script>
 
 <template>
-  <div class="herosetion relative w-full mt-[94px]">
+  <div id="toppage"></div>
+  <div class="herosetion relative w-full mt-[94px]" id="toppage">
     <div class="absolute bottom-0 left-0">
       <nuxt-img src="/images/herosection/herosection.webp" loading="lazy" width="375" height="600" alt="herosection" />
     </div>

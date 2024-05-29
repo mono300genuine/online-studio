@@ -238,7 +238,7 @@ const navLinks = [
 </style>
 
 <template>
-  <header class="container header top-0 z-50">
+  <header class="container header top-0 z-50 ">
     <div class="border-b border-gray-200">
       <div class="flex items-center justify-between w-full relative">
         <div class="flex justify-between h-[50px] w-full px-3">

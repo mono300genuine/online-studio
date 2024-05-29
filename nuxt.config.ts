@@ -23,22 +23,4 @@ export default defineNuxtConfig({
             autoprefixer: {}
         }
     },
-    app: {
-        head: {
-          htmlAttrs: {
-            lang: 'ja' // Specify the language of the document as Japanese
-          },
-          meta: [
-            { charset: 'utf-8' },
-            { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-            { hid: 'description', name: 'description', content: 'Your description here' }
-          ],
-          link: [
-            // Preloading Google Fonts
-            { rel: 'preload', as: 'style', href: 'https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap' },
-            { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap' }
-          ]
-        }
-    }
-
 })

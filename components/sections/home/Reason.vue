@@ -188,7 +188,7 @@
           class="z-10" />
         <div class="flex flex-row justify-center w-full p-4 text-[#7799FF]">
           <div class="text-[32px] text-center">\</div>
-          <div class="text-[16px] text-center mx-4 font-sans-jp">具体的なクラスを<br />覗いてみよう！</div>
+          <div class="text-[16px] text-center mx-4 font-sans">私たち、クレイジー特典を<br />もらっちゃいました!</div>
           <div class="text-[32px] text-center">/</div>
         </div>
         <CardsUserVoiceSwiperCard />

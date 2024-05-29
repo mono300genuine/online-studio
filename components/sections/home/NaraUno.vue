@@ -68,7 +68,7 @@ const cardlist2 = [
 </script>
 
 <template>
-  <div class="relative flex flex-col mt-20 px-4">
+  <div class="relative flex flex-col mt-20 px-4 font-hiragino">
     <div class="flex flex-col">
       <div class="px-2"><nuxt-img src="/images/narauno/naraunologo.webp" loading="lazy" width="200" height="32"  alt="naraunologo" /></div>
       <div class="flex justify-end mt-4"><nuxt-img src="/images/narauno/naraunotitle.webp" loading="lazy" width="315" height="30" alt="naraunotitle" /></div>

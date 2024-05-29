@@ -1,5 +1,5 @@
 <template>
-  <footer class="footercontainer  container bg-black/30 bottom-0 z-50 p-1">
+  <footer class="footercontainer container bg-black/50 bottom-0 z-50 p-1">
     <div class="flex flex-row justify-center items-center h-[40px] w-[48%] bg-white text-black rounded-md">
       <nuxt-img src="/icons/freedial.webp" loading="lazy" width="28" height="18" alt="freedial" />
         <span class="text-[8px] ml-[7px]">
