@@ -1,7 +1,10 @@
 <script setup lang="ts">
 useHead({
   title: 'Podux - Home',
-  lang :"ja",
+  htmlAttrs: {
+    lang: 'ja' 
+  },
+
   meta: [
     { name: 'description', content: 'Podux Podcast landing page website.' },
   ],
