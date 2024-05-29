@@ -25,7 +25,7 @@ const { bg, vbg, tagtxt, buttontxt, firstcolor, endcolor } = defineProps<
     <div class="absolute bottom-0 left-[2rem] border-4 border-white rounded-lg shadow-xl">
       <nuxt-img :src="vbg" loading="lazy" width="270" height="190" alt="lineupcardv" />
     </div>
-    <NuxtLink to="/" rel="noopener noreferrer" class="absolute bottom-4 left-[2.9rem]">
+    <NuxtLink to="/" rel="preload" class="absolute bottom-4 left-[2.9rem]">
       <div
         class="relative flex justify-center items-center p-2 w-[250px] h-[40px] text-white text-[14px] border border-white bg-black/60">
         {{ buttontxt }}

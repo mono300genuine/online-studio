@@ -242,7 +242,7 @@ const navLinks = [
     <div class="border-b border-gray-200">
       <div class="flex items-center justify-between w-full relative">
         <div class="flex justify-between h-[50px] w-full px-3">
-          <NuxtLink to="/" rel="noopener noreferrer" class="flex items-center">
+          <NuxtLink to="/" rel="preload" class="flex items-center">
             <nuxt-img src="/logo.webp" loading="lazy" width="139" height="33" alt="Logo" />
             <span class="text-[8px] ml-1 text-gray-700 dark:text-white">オンラインアカデミー</span>
           </NuxtLink>
@@ -258,35 +258,35 @@ const navLinks = [
     <div>
       <div class="flex justify-between py-3 text-[13px]">
         <NuxtLink 
-          to="/" rel="noopener noreferrer" 
+          to="/" rel="preload" 
           class="w-1/5 flex justify-center items-center border-r border-gray-200 relative"
           :class="selectedNavItem === 'home' ? 'selected' : ''"
           @click="selectNavItem('home')">
           <nuxt-img src="/icons/icon_home.webp" loading="lazy" width="15" height="16" alt="Home" />
         </NuxtLink>
         <NuxtLink 
-          to="/" rel="noopener noreferrer" 
+          to="/" rel="preload" 
           class="w-1/5 text-center border-r border-gray-200 relative"
           :class="selectedNavItem === 'music' ? 'selected' : ''"
           @click="selectNavItem('music')">
           音楽
         </NuxtLink>
         <NuxtLink 
-          to="/" rel="noopener noreferrer" 
+          to="/" rel="preload" 
           class="w-1/5 text-center border-r border-gray-200 relative"
           :class="selectedNavItem === 'wine' ? 'selected' : ''"
           @click="selectNavItem('wine')">
           ワイン
         </NuxtLink>
         <NuxtLink 
-          to="/" rel="noopener noreferrer" 
+          to="/" rel="preload" 
           class="w-1/5 text-center border-r border-gray-200 relative"
           :class="selectedNavItem === 'tea' ? 'selected' : ''"
           @click="selectNavItem('tea')">
           茶道
         </NuxtLink>
         <NuxtLink 
-          to="/" rel="noopener noreferrer" 
+          to="/" rel="preload" 
           class="w-1/5 text-center border-gray-200 relative"
           :class="selectedNavItem === 'ceramics' ? 'selected' : ''"
           @click="selectNavItem('ceramics')">

@@ -25,7 +25,7 @@
         class="absolute left-[33px] top-[36px]" />
     </div>
 
-    <NuxtLink to="/" rel="noopener noreferrer" class="w-[335px] h-[60px] mx-[0.375rem] bg-black flex flex-row justify-between px-4 items-center text-white rounded-md z-10">
+    <NuxtLink to="/" rel="preload" class="w-[335px] h-[60px] mx-[0.375rem] bg-black flex flex-row justify-between px-4 items-center text-white rounded-md z-10">
       <nuxt-img src="/images/components/logcard/logcardusericon.webp" loading="lazy" width="23" height="30" alt="logcardsericon" />
       <div class="flex items-center flex-col ml-2">
         <span class="text-[12px] text-red-400">簡易メンバー登録して</span>
@@ -36,7 +36,7 @@
       </svg>
     </NuxtLink>
     
-    <NuxtLink to="/" rel="noopener noreferrer" class="text-[12px] mb-[0.375rem]">
+    <NuxtLink to="/" rel="preload" class="text-[12px] mb-[0.375rem]">
       メンバーの方はログイン
     </NuxtLink>
   </div>

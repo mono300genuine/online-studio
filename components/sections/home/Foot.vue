@@ -25,7 +25,7 @@ const footlist = [
 
 <template>
   <div class="flex flex-col bg-black w-[375px] h-[770px] mt-16 items-center">
-    <NuxtLink to="/" rel="noopener noreferrer">
+    <NuxtLink to="/" rel="preload">
       <div class="mt-[36px]">
         <nuxt-img src="/images/foot/logo.webp" loading="lazy" width="141" height="80" alt="logo" />
       </div>

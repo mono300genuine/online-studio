@@ -7,7 +7,7 @@ const { text, href } = defineProps<
 </script>
 <template>
   <li class="lg:inline-flex">
-    <NuxtLink class="lg:inline-flex transition hover:text-primary ease-linear text-lg" :to="href" rel="noopener noreferrer">
+    <NuxtLink class="lg:inline-flex transition hover:text-primary ease-linear text-lg" :to="href" rel="preload">
       {{ text }}
     </NuxtLink>
   </li>

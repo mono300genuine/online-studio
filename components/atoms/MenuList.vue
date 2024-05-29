@@ -21,7 +21,7 @@ function toggleList(event: MouseEvent): void {
 <template>
   <li class="w-[375px]">
     <button @click="toggleList" class="w-full h-[50px]">
-      <NuxtLink class="transition ease-linear text-lg" :to="href" rel="noopener noreferrer">
+      <NuxtLink class="transition ease-linear text-lg" :to="href" rel="preload">
         <div
           class="group flex flex-row w-full h-full p-2 items-center justify-between border border-[#EEEEEE] border-t-0 hover:text-white hover:bg-gradient-to-br hover:from-[#77E5FF] hover:to-[#659AE2]">
           <div class="flex flex-row w-full pl-4 gap-2">

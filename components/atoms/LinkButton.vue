@@ -1,5 +1,5 @@
 <template>
-  <NuxtLink to="/" rel="noopener noreferrer" class="relative flex justify-center items-center p-2 text-white text-[14px] bg-black shadow-lg">
+  <NuxtLink to="/" rel="preload" class="relative flex justify-center items-center p-2 text-white text-[14px] bg-black shadow-lg">
     <slot></slot>
     <div class="absolute right-2">
       <svg width="14.607" height="6.31" viewBox="0 0 14.607 6.31">

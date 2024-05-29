@@ -3,7 +3,7 @@
     <div class="flex flex-row justify-center items-center h-[40px] w-[48%] bg-white text-black rounded-md">
       <nuxt-img src="/icons/freedial.webp" loading="lazy" width="28" height="18" alt="freedial" />
         <span class="text-[8px] ml-[7px]">
-          <NuxtLink to="tel:0120-978-900" rel="noopener noreferrer">
+          <NuxtLink to="tel:0120-978-900" rel="preload">
             <strong class="text-[14px]">
               0120-978-900
             </strong><br />
@@ -11,7 +11,7 @@
           <strong>電話受付 : 8:00~25:00</strong>
         </span>
     </div>
-    <NuxtLink to="/" rel="noopener noreferrer"
+    <NuxtLink to="/" rel="preload"
       class="relative flex flex-row justify-between px-4 items-center h-[40px] w-[48%] bg-black text-white rounded-md">
       <div class="flex flex-row">
         <nuxt-img src="/icons/usericon.webp" loading="lazy" width="18" height="24" alt="usericon" />
