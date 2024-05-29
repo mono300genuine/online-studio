@@ -32,12 +32,12 @@
         <span class="text-[22px] tracking-wider">2,000円をGET</span>
       </div>
       <svg width="22.137" height="9.466" viewBox="0 0 22.137 9.466">
-        <path id="arrow2" d="M0,7.719H19.51L10.843,0" transform="translate(0 0.747)" fill="none" stroke="#fff" stroke-width="2" />
+        <path d="M0,7.719H19.51L10.843,0" transform="translate(0 0.747)" fill="none" stroke="#fff" stroke-width="2" />
       </svg>
     </NuxtLink>
     
     <NuxtLink to="/" rel="noopener noreferrer" class="text-[12px] mb-[0.375rem]">
-      <button>メンバーの方はログイン</button>
+      メンバーの方はログイン
     </NuxtLink>
   </div>
 </template>
